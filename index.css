@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1B1924;
+  color: #fff;
+  user-select: none;
+}
+
+.container {
+  padding: 20px 3px;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 30px auto;
+}
+
+.img-freddie {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 17px;
+}
+
+.title {
+  margin: 0 0 19px;
+  text-align: center;
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.inputs {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 9px;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 8px;
+  background: #444059;
+  color: #8F8F8F;
+  font-family: Inter;
+  font-size: 15px;
+  word-break: break-word;
+  text-align: center;
+}
+
+.endorsement-field {
+  margin-bottom: 9px;
+  height: 118px;
+  padding: 12px 16px;
+  resize: none;
+  text-align: start;
+}
+
+.input-field::placeholder {
+  color: #8F8F8F;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  margin-bottom: 19px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background: #28A9F1;
+  color: #04131C;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #444059;
+  cursor: pointer;
+  color: #28A9F1;
+}
+
+.endorsements-title {
+  text-align: center;
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.endorsements-list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+
+.endorsements-item {
+  width: 100%;
+  padding: 13px 14px;
+  color: #1B1924;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #FFF;
+}
+
+.endorsements-item-to,
+.endorsements-item-from{
+  margin: 0;
+  font-weight: 700;
+}
+
+.endorsements-item-from {
+  margin-right: auto;
+}
+
+.endorsements-item-message {
+  margin: 13px 0 8px;
+}
+
+.endorsements-item-footer {
+  display: flex;
+}
+
+.endorsements-item-like {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

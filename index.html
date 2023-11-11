@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <title>We are the champions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <img class="img-freddie" src="./assets/Freddie.svg">
+    <h1 class="title">We are the Champions</h1>
+    <textarea type="text" class="input-field endorsement-field" id="endorsement-field"
+      placeholder="Write your endorsement here"></textarea>
+    <div class="inputs">
+      <input class="input-field" type="text" id="to-field" placeholder="To">
+      <input class="input-field" type="text" id="from-field" placeholder="From">
+    </div>
+    <button id="add-button">Publish</button>
+    <section class="endorsements">
+      <h2 class="endorsements-title">- Endorsements - </h2>
+      <ul class="endorsements-list" id="endorsements-list">
+        <li class="endorsements-item">
+          <p class="endorsements-item-to"></p>
+          <p class="endorsements-item-message"></p>
+          <div class="endorsements-item-footer">
+            <p class="endorsements-item-from"></p>
+            <span class="endorsements-item-like">🖤 4</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
